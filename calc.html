@@ -1,0 +1,37 @@
+<html>
+<head>
+  <title>calculator</title>
+  <link href="https://fonts.googleapis.com/css?family=Gotu&display=swap" rel="stylesheet"> 
+  <link href="calc.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="calc">
+   <form name="forms">
+     <input type="text" name="blank" id="blank"><br></br>
+     <input type="button" value="1" onclick="forms.blank.value +=value">
+    <input type="button" value="2" onclick="forms.blank.value +=value">
+    <input type="button" value="3" onclick="forms.blank.value +='3'">
+    <br></br>
+    <input type="button" value="4" onclick="forms.blank.value +='4'">
+    <input type="button" value="5" onclick="forms.blank.value +='5'">
+    <input type="button" value="6" onclick="forms.blank.value +='6'">
+    <br></br>
+    <input type="button" value="7" onclick="forms.blank.value +='7'">
+    <input type="button" value="8" onclick="forms.blank.value +='8'">
+    <input type="button" value="9" onclick="forms.blank.value +='9'">
+    <br></br>
+    <input type="button" value="0" onclick="forms.blank.value +='0'">
+   <input type="button" value="=" onclick="forms.blank.value =eval(forms.blank.value)">
+    <input type="button" value="+" onclick="forms.blank.value +='+'">
+    <br></br>
+    <input type="button" value="-" onclick="forms.blank.value +='-'">
+    <input type="button" value="*" onclick="forms.blank.value +='*'">
+    <input type="button" value="/" onclick="forms.blank.value +='/'">
+    <br></br>
+    <input type="button" value="clear all" onclick="forms.blank.value =''">
+    </form>
+  </div>
+</body>
+
+</html>
